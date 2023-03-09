@@ -1,0 +1,8 @@
+# Default values for eks-addon.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+clusterName: test-cluster
+serviceAccount.create: false
+region: us-east-1
+vpcId: vpc-08414781d7503275a
+serviceAccount.name: aws-load-balancer-controller
